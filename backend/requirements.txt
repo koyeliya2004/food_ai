@@ -1,0 +1,15 @@
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# Image processing
+Pillow>=10.3.0
+
+# ML / model inference (CPU-friendly)
+transformers>=4.40.0
+torch>=2.2.0
+# Use CPU-only torch to keep image size small:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Required by transformers for ViT models
+timm>=0.9.16
