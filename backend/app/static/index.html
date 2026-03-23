@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Calorie &amp; Food Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="logo">🍽️</div>
+      <div>
+        <h1>AI Calorie &amp; Food Detector</h1>
+        <p class="tagline">Upload a food photo and instantly get nutrition insights</p>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- Upload card -->
+      <section class="card upload-card" id="uploadCard">
+        <div
+          class="drop-zone"
+          id="dropZone"
+          role="button"
+          tabindex="0"
+          aria-label="Upload food image"
+        >
+          <div class="drop-icon">📷</div>
+          <p class="drop-title">Drag &amp; drop your food photo here</p>
+          <p class="drop-sub">or click to browse</p>
+          <input
+            type="file"
+            id="fileInput"
+            accept="image/jpeg,image/png,image/webp,image/gif"
+            aria-hidden="true"
+            tabindex="-1"
+          />
+        </div>
+
+        <!-- Image preview -->
+        <div class="preview-wrapper" id="previewWrapper" hidden>
+          <img id="previewImg" src="" alt="Food preview" />
+          <button class="btn-ghost btn-change" id="btnChange" type="button">Change photo</button>
+        </div>
+
+        <!-- Analyze button -->
+        <div class="btn-row">
+          <button class="btn-primary" id="btnAnalyze" type="button" disabled>
+            <span id="btnText">Analyze</span>
+            <span id="btnSpinner" class="spinner" hidden></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Error banner -->
+      <div class="error-banner" id="errorBanner" hidden role="alert"></div>
+
+      <!-- Results card -->
+      <section class="card results-card" id="resultsCard" hidden>
+        <h2 class="results-heading">Results</h2>
+
+        <div class="result-hero">
+          <div class="food-name" id="resultFoodName">—</div>
+          <div class="confidence-row">
+            Confidence:&nbsp;
+            <span class="confidence-value" id="resultConfidence">—</span>
+            <div class="confidence-bar-track">
+              <div class="confidence-bar-fill" id="confidenceBar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-grid">
+          <div class="result-item">
+            <span class="result-label">🔥 Estimated Calories</span>
+            <span class="result-value" id="resultCalories">—</span>
+          </div>
+          <div class="result-item">
+            <span class="result-label">🏷️ Health Category</span>
+            <span class="badge" id="resultBadge">—</span>
+          </div>
+        </div>
+
+        <div class="suggestion-box">
+          <span class="result-label">💡 Suggestion</span>
+          <p id="resultSuggestion">—</p>
+        </div>
+
+        <!-- Top predictions -->
+        <details class="top-predictions" id="topPredictions">
+          <summary>Other predictions</summary>
+          <ul id="predictionList"></ul>
+        </details>
+
+        <div class="model-meta" id="modelMeta"></div>
+
+        <button class="btn-ghost btn-analyze-again" id="btnReset" type="button">
+          ↩ Analyze another food
+        </button>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Powered by <strong>FastAPI</strong> + <strong>Hugging Face Transformers</strong> · Food-101 model</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

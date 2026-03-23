@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face model cache (do not commit downloaded weights)
+.cache/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if frontend tooling added later)
+node_modules/

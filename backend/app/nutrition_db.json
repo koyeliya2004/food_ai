@@ -1,0 +1,507 @@
+{
+  "apple_pie": {
+    "calories": 296,
+    "health_category": "unhealthy",
+    "suggestion": "Apple pie is high in sugar and fat. Enjoy occasionally and consider a smaller slice."
+  },
+  "baby_back_ribs": {
+    "calories": 320,
+    "health_category": "moderate",
+    "suggestion": "Ribs provide protein but are high in fat. Pair with a salad or steamed vegetables."
+  },
+  "baklava": {
+    "calories": 334,
+    "health_category": "unhealthy",
+    "suggestion": "Baklava is very high in sugar and fat. Enjoy as a small occasional treat."
+  },
+  "beef_carpaccio": {
+    "calories": 146,
+    "health_category": "moderate",
+    "suggestion": "Carpaccio is lower in calories but is raw beef—ensure it comes from a trusted source."
+  },
+  "beef_tartare": {
+    "calories": 200,
+    "health_category": "moderate",
+    "suggestion": "Beef tartare is protein-rich but raw. Consume from reputable sources and balance with vegetables."
+  },
+  "beet_salad": {
+    "calories": 120,
+    "health_category": "healthy",
+    "suggestion": "Beet salad is rich in antioxidants and fiber. A great choice for a nutritious meal!"
+  },
+  "beignets": {
+    "calories": 300,
+    "health_category": "unhealthy",
+    "suggestion": "Beignets are deep-fried and high in sugar. Best enjoyed occasionally as a treat."
+  },
+  "bibimbap": {
+    "calories": 490,
+    "health_category": "healthy",
+    "suggestion": "Bibimbap is a well-balanced Korean meal with vegetables, rice, and protein. A nutritious choice!"
+  },
+  "bread_pudding": {
+    "calories": 350,
+    "health_category": "unhealthy",
+    "suggestion": "Bread pudding is high in refined carbs and sugar. Enjoy in moderation."
+  },
+  "breakfast_burrito": {
+    "calories": 430,
+    "health_category": "moderate",
+    "suggestion": "A breakfast burrito can be filling and nutritious. Opt for whole grain tortillas and extra veggies."
+  },
+  "bruschetta": {
+    "calories": 150,
+    "health_category": "healthy",
+    "suggestion": "Bruschetta is a light, antioxidant-rich appetizer. A great healthy starter!"
+  },
+  "caesar_salad": {
+    "calories": 360,
+    "health_category": "moderate",
+    "suggestion": "Caesar salad dressing is calorie-dense. Ask for dressing on the side or choose less."
+  },
+  "cannoli": {
+    "calories": 220,
+    "health_category": "unhealthy",
+    "suggestion": "Cannoli are rich in sugar and fat. Treat yourself to one and savor it slowly."
+  },
+  "caprese_salad": {
+    "calories": 180,
+    "health_category": "healthy",
+    "suggestion": "Caprese salad is fresh and nutritious with healthy fats from olive oil. A wonderful light dish!"
+  },
+  "carrot_cake": {
+    "calories": 340,
+    "health_category": "unhealthy",
+    "suggestion": "Carrot cake often contains a lot of frosting. Enjoy a small slice and savor it."
+  },
+  "ceviche": {
+    "calories": 150,
+    "health_category": "healthy",
+    "suggestion": "Ceviche is high in protein and low in calories. A healthy and refreshing dish!"
+  },
+  "cheese_plate": {
+    "calories": 350,
+    "health_category": "moderate",
+    "suggestion": "Cheese is high in calcium and protein but also saturated fat. Enjoy with fruits and whole grain crackers."
+  },
+  "cheesecake": {
+    "calories": 400,
+    "health_category": "unhealthy",
+    "suggestion": "Cheesecake is very high in calories. Enjoy a small slice on special occasions."
+  },
+  "chicken_curry": {
+    "calories": 300,
+    "health_category": "moderate",
+    "suggestion": "Chicken curry can be nutritious. Choose less oil and coconut milk to reduce calories."
+  },
+  "chicken_quesadilla": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "Chicken quesadillas provide protein. Use whole wheat tortillas and add vegetables for extra nutrition."
+  },
+  "chicken_wings": {
+    "calories": 430,
+    "health_category": "unhealthy",
+    "suggestion": "Chicken wings are high in fat, especially when fried. Opt for baked wings and a healthier sauce."
+  },
+  "chocolate_cake": {
+    "calories": 352,
+    "health_category": "unhealthy",
+    "suggestion": "Chocolate cake is high in sugar and fat. Enjoy a small slice as an occasional treat."
+  },
+  "chocolate_mousse": {
+    "calories": 260,
+    "health_category": "unhealthy",
+    "suggestion": "Chocolate mousse is rich in fat and sugar. A small serving is best enjoyed as a dessert."
+  },
+  "churros": {
+    "calories": 280,
+    "health_category": "unhealthy",
+    "suggestion": "Churros are deep-fried and sugary. Enjoy a couple as a treat, not a regular snack."
+  },
+  "clam_chowder": {
+    "calories": 310,
+    "health_category": "moderate",
+    "suggestion": "Clam chowder is rich in protein but also cream. A cup-size serving is a satisfying option."
+  },
+  "club_sandwich": {
+    "calories": 560,
+    "health_category": "moderate",
+    "suggestion": "Club sandwiches can be calorie-dense. Go for whole grain bread and skip the mayo for a healthier version."
+  },
+  "crab_cakes": {
+    "calories": 200,
+    "health_category": "moderate",
+    "suggestion": "Crab cakes are a good source of protein. Choose baked instead of fried for fewer calories."
+  },
+  "creme_brulee": {
+    "calories": 330,
+    "health_category": "unhealthy",
+    "suggestion": "Crème brûlée is high in cream and sugar. Enjoy a small ramekin as an occasional dessert."
+  },
+  "croque_madame": {
+    "calories": 470,
+    "health_category": "moderate",
+    "suggestion": "Croque madame is hearty but high in saturated fat. Enjoy occasionally and pair with a green salad."
+  },
+  "cup_cakes": {
+    "calories": 300,
+    "health_category": "unhealthy",
+    "suggestion": "Cupcakes are high in sugar and fat. One small cupcake as an occasional treat is fine."
+  },
+  "deviled_eggs": {
+    "calories": 140,
+    "health_category": "moderate",
+    "suggestion": "Deviled eggs are protein-rich. A few as an appetizer is a reasonable choice."
+  },
+  "donuts": {
+    "calories": 350,
+    "health_category": "unhealthy",
+    "suggestion": "Donuts are high in sugar and trans fats. Limit to a very occasional treat."
+  },
+  "dumplings": {
+    "calories": 250,
+    "health_category": "moderate",
+    "suggestion": "Dumplings can be nutritious. Choose steamed over fried and enjoy with a light dipping sauce."
+  },
+  "edamame": {
+    "calories": 120,
+    "health_category": "healthy",
+    "suggestion": "Edamame is an excellent plant-based protein source and rich in fiber. A great healthy snack!"
+  },
+  "eggs_benedict": {
+    "calories": 400,
+    "health_category": "moderate",
+    "suggestion": "Eggs Benedict is high in calories due to hollandaise sauce. Enjoy occasionally with a side salad."
+  },
+  "escargots": {
+    "calories": 130,
+    "health_category": "moderate",
+    "suggestion": "Escargots are low in calories and high in protein. A unique, relatively healthy appetizer."
+  },
+  "falafel": {
+    "calories": 333,
+    "health_category": "moderate",
+    "suggestion": "Falafel is a good plant-based protein. Opt for baked instead of fried when possible."
+  },
+  "filet_mignon": {
+    "calories": 340,
+    "health_category": "moderate",
+    "suggestion": "Filet mignon is a lean cut of beef, high in protein. Enjoy with steamed veggies for a balanced meal."
+  },
+  "fish_and_chips": {
+    "calories": 520,
+    "health_category": "unhealthy",
+    "suggestion": "Fish and chips are high in fat from deep frying. Try grilled fish with a side salad instead."
+  },
+  "foie_gras": {
+    "calories": 462,
+    "health_category": "unhealthy",
+    "suggestion": "Foie gras is extremely high in fat. Enjoy only as a very small occasional indulgence."
+  },
+  "french_fries": {
+    "calories": 365,
+    "health_category": "unhealthy",
+    "suggestion": "French fries are high in fat and sodium. Try baked sweet potato fries as a healthier alternative."
+  },
+  "french_onion_soup": {
+    "calories": 230,
+    "health_category": "moderate",
+    "suggestion": "French onion soup is flavorful but high in sodium. Enjoy a cup as a starter rather than a main."
+  },
+  "french_toast": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "French toast is filling. Use whole grain bread and reduce syrup for a healthier version."
+  },
+  "fried_calamari": {
+    "calories": 280,
+    "health_category": "unhealthy",
+    "suggestion": "Fried calamari is high in fat. Try grilled calamari as a lighter alternative."
+  },
+  "fried_rice": {
+    "calories": 340,
+    "health_category": "moderate",
+    "suggestion": "Fried rice can be high in sodium and fat. Add more vegetables and use less oil."
+  },
+  "frozen_yogurt": {
+    "calories": 180,
+    "health_category": "moderate",
+    "suggestion": "Frozen yogurt is a lighter alternative to ice cream. Watch the toppings to keep it healthy."
+  },
+  "garlic_bread": {
+    "calories": 200,
+    "health_category": "moderate",
+    "suggestion": "Garlic bread can be high in butter. Use whole grain bread with a light olive oil drizzle instead."
+  },
+  "gnocchi": {
+    "calories": 340,
+    "health_category": "moderate",
+    "suggestion": "Gnocchi is high in carbs. Pair with a light tomato sauce and vegetables for a balanced meal."
+  },
+  "greek_salad": {
+    "calories": 230,
+    "health_category": "healthy",
+    "suggestion": "Greek salad is rich in healthy fats, vitamins, and minerals. A nutritious and satisfying option!"
+  },
+  "grilled_cheese_sandwich": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "Grilled cheese is comforting but high in saturated fat. Use whole grain bread and reduce butter."
+  },
+  "grilled_salmon": {
+    "calories": 280,
+    "health_category": "healthy",
+    "suggestion": "Grilled salmon is packed with omega-3 fatty acids and protein. An excellent choice for heart health!"
+  },
+  "guacamole": {
+    "calories": 190,
+    "health_category": "healthy",
+    "suggestion": "Guacamole is full of healthy fats and nutrients. Enjoy with vegetables instead of chips."
+  },
+  "gyoza": {
+    "calories": 210,
+    "health_category": "moderate",
+    "suggestion": "Gyoza can be a tasty starter. Choose steamed over pan-fried for fewer calories."
+  },
+  "hamburger": {
+    "calories": 540,
+    "health_category": "unhealthy",
+    "suggestion": "Burgers are high in calories and saturated fat. Choose a lean patty and skip the cheese and mayo."
+  },
+  "hot_and_sour_soup": {
+    "calories": 110,
+    "health_category": "healthy",
+    "suggestion": "Hot and sour soup is low in calories. Be mindful of sodium content if you have blood pressure concerns."
+  },
+  "hot_dog": {
+    "calories": 290,
+    "health_category": "unhealthy",
+    "suggestion": "Hot dogs are processed and high in sodium and fat. Enjoy very occasionally and choose turkey hot dogs."
+  },
+  "huevos_rancheros": {
+    "calories": 360,
+    "health_category": "moderate",
+    "suggestion": "Huevos rancheros is protein-rich. Use less cheese and sour cream for a lighter version."
+  },
+  "hummus": {
+    "calories": 165,
+    "health_category": "healthy",
+    "suggestion": "Hummus is a nutritious dip packed with plant protein and fiber. Great with veggies or pita."
+  },
+  "ice_cream": {
+    "calories": 270,
+    "health_category": "unhealthy",
+    "suggestion": "Ice cream is high in sugar and fat. Choose a smaller portion or a sorbet as a lighter alternative."
+  },
+  "lasagna": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "Lasagna can be hearty. Try a vegetable or turkey lasagna for fewer calories."
+  },
+  "lobster_bisque": {
+    "calories": 260,
+    "health_category": "moderate",
+    "suggestion": "Lobster bisque is rich in cream. Enjoy a cup-sized portion and pair with a side salad."
+  },
+  "lobster_roll_sandwich": {
+    "calories": 360,
+    "health_category": "moderate",
+    "suggestion": "Lobster rolls are a treat. Choose a Connecticut-style (butter) over mayo for a different richness."
+  },
+  "macaroni_and_cheese": {
+    "calories": 350,
+    "health_category": "unhealthy",
+    "suggestion": "Mac and cheese is high in saturated fat. Try a whole grain version with added vegetables."
+  },
+  "macarons": {
+    "calories": 100,
+    "health_category": "moderate",
+    "suggestion": "Macarons are small but sugary. One or two is a delightful treat to enjoy mindfully."
+  },
+  "miso_soup": {
+    "calories": 40,
+    "health_category": "healthy",
+    "suggestion": "Miso soup is low in calories and contains probiotics. A great light starter, but watch sodium levels."
+  },
+  "mussels": {
+    "calories": 150,
+    "health_category": "healthy",
+    "suggestion": "Mussels are low in fat and high in protein and iron. An excellent nutritious seafood choice!"
+  },
+  "nachos": {
+    "calories": 480,
+    "health_category": "unhealthy",
+    "suggestion": "Nachos are high in fat and sodium. Opt for fewer chips, add more salsa and beans."
+  },
+  "omelette": {
+    "calories": 200,
+    "health_category": "healthy",
+    "suggestion": "Omelettes are protein-packed. Load up with vegetables for extra nutrition and fiber."
+  },
+  "onion_rings": {
+    "calories": 380,
+    "health_category": "unhealthy",
+    "suggestion": "Onion rings are deep-fried and high in fat. Consider baked onion rings as a healthier option."
+  },
+  "oysters": {
+    "calories": 100,
+    "health_category": "healthy",
+    "suggestion": "Oysters are low in calories and rich in zinc and iron. A healthy choice when eaten fresh!"
+  },
+  "pad_thai": {
+    "calories": 400,
+    "health_category": "moderate",
+    "suggestion": "Pad Thai is tasty but often high in sodium and sugar. Ask for less sauce and extra vegetables."
+  },
+  "paella": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "Paella is a balanced dish with seafood and rice. A satisfying and relatively nutritious meal."
+  },
+  "pancakes": {
+    "calories": 350,
+    "health_category": "moderate",
+    "suggestion": "Pancakes are high in refined carbs. Use whole grain flour and top with fresh fruit instead of syrup."
+  },
+  "panna_cotta": {
+    "calories": 280,
+    "health_category": "unhealthy",
+    "suggestion": "Panna cotta is rich in cream and sugar. Enjoy a small portion as an occasional dessert."
+  },
+  "peking_duck": {
+    "calories": 420,
+    "health_category": "moderate",
+    "suggestion": "Peking duck is flavorful but high in fat. Enjoy the skin sparingly and eat with plenty of vegetables."
+  },
+  "pho": {
+    "calories": 300,
+    "health_category": "healthy",
+    "suggestion": "Pho is a nutritious Vietnamese soup. Add extra vegetables and choose a leaner protein option."
+  },
+  "pizza": {
+    "calories": 400,
+    "health_category": "moderate",
+    "suggestion": "Pizza can be high in calories. Choose a thin crust, add vegetable toppings, and limit cheese."
+  },
+  "pork_chop": {
+    "calories": 330,
+    "health_category": "moderate",
+    "suggestion": "Pork chops are a good protein source. Choose lean cuts and grill instead of frying."
+  },
+  "poutine": {
+    "calories": 740,
+    "health_category": "unhealthy",
+    "suggestion": "Poutine is very high in calories, fat, and sodium. Enjoy as a rare treat in a small portion."
+  },
+  "prime_rib": {
+    "calories": 400,
+    "health_category": "moderate",
+    "suggestion": "Prime rib is high in protein but also saturated fat. Enjoy occasionally with steamed vegetables."
+  },
+  "pulled_pork_sandwich": {
+    "calories": 500,
+    "health_category": "moderate",
+    "suggestion": "Pulled pork sandwiches can be calorie-dense. Use whole grain buns and limit BBQ sauce."
+  },
+  "ramen": {
+    "calories": 450,
+    "health_category": "moderate",
+    "suggestion": "Ramen can be high in sodium. Choose a broth-based style and add extra vegetables."
+  },
+  "ravioli": {
+    "calories": 360,
+    "health_category": "moderate",
+    "suggestion": "Ravioli is filling. Opt for a tomato-based sauce over cream sauce to reduce calories."
+  },
+  "red_velvet_cake": {
+    "calories": 360,
+    "health_category": "unhealthy",
+    "suggestion": "Red velvet cake is high in sugar and fat. Enjoy a small slice as an occasional treat."
+  },
+  "risotto": {
+    "calories": 340,
+    "health_category": "moderate",
+    "suggestion": "Risotto is comforting. Choose a vegetable or seafood version for a lighter meal."
+  },
+  "samosa": {
+    "calories": 300,
+    "health_category": "moderate",
+    "suggestion": "Samosas are fried and can be high in fat. Choose baked samosas and enjoy with chutney."
+  },
+  "sashimi": {
+    "calories": 130,
+    "health_category": "healthy",
+    "suggestion": "Sashimi is an excellent high-protein, low-fat food. Rich in omega-3s—a great healthy choice!"
+  },
+  "scallops": {
+    "calories": 160,
+    "health_category": "healthy",
+    "suggestion": "Scallops are low in fat and high in protein. A delicious and nutritious seafood option!"
+  },
+  "seaweed_salad": {
+    "calories": 90,
+    "health_category": "healthy",
+    "suggestion": "Seaweed salad is rich in minerals and low in calories. A wonderful healthy side dish!"
+  },
+  "shrimp_and_grits": {
+    "calories": 380,
+    "health_category": "moderate",
+    "suggestion": "Shrimp and grits is hearty. Reduce butter and cheese for a lighter version."
+  },
+  "spaghetti_bolognese": {
+    "calories": 450,
+    "health_category": "moderate",
+    "suggestion": "Spaghetti bolognese is satisfying. Try whole wheat pasta and lean beef for a healthier meal."
+  },
+  "spaghetti_carbonara": {
+    "calories": 510,
+    "health_category": "unhealthy",
+    "suggestion": "Carbonara is high in fat and calories. Enjoy occasionally with a large side salad."
+  },
+  "spring_rolls": {
+    "calories": 200,
+    "health_category": "moderate",
+    "suggestion": "Spring rolls can be healthy. Choose fresh (not fried) versions packed with vegetables."
+  },
+  "steak": {
+    "calories": 370,
+    "health_category": "moderate",
+    "suggestion": "Steak is high in protein. Choose lean cuts and pair with steamed vegetables and salad."
+  },
+  "strawberry_shortcake": {
+    "calories": 290,
+    "health_category": "unhealthy",
+    "suggestion": "Strawberry shortcake has good fruit but is high in sugar. Enjoy a small portion."
+  },
+  "sushi": {
+    "calories": 350,
+    "health_category": "healthy",
+    "suggestion": "Sushi is a nutritious option rich in omega-3s. Choose rolls with less rice and more vegetables."
+  },
+  "tacos": {
+    "calories": 350,
+    "health_category": "moderate",
+    "suggestion": "Tacos can be nutritious. Choose corn tortillas, lean protein, and load up on vegetables and salsa."
+  },
+  "takoyaki": {
+    "calories": 280,
+    "health_category": "moderate",
+    "suggestion": "Takoyaki is a tasty snack. Enjoy in moderation as part of a balanced meal."
+  },
+  "tiramisu": {
+    "calories": 390,
+    "health_category": "unhealthy",
+    "suggestion": "Tiramisu is a rich dessert. Enjoy a small portion on special occasions."
+  },
+  "tuna_tartare": {
+    "calories": 200,
+    "health_category": "healthy",
+    "suggestion": "Tuna tartare is high in protein and omega-3s. A great light and nutritious dish!"
+  },
+  "waffles": {
+    "calories": 360,
+    "health_category": "moderate",
+    "suggestion": "Waffles are high in refined carbs. Top with fresh fruit instead of syrup for a healthier option."
+  }
+}
