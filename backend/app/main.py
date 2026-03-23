@@ -9,11 +9,10 @@ from typing import Optional
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from .model import load_model, predict
+from .model import is_model_loaded, load_model, predict
 from .nutrition import lookup
 
 logging.basicConfig(level=logging.INFO)
@@ -26,7 +25,10 @@ logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):  # type: ignore[type-arg]
-    load_model()
+    try:
+        load_model()
+    except Exception as exc:  # pragma: no cover
+        logger.warning("Model could not be loaded at startup: %s. Will retry on first request.", exc)
     yield
 
 
@@ -107,7 +109,18 @@ async def analyze(file: UploadFile = File(...)) -> AnalyzeResponse:
 
     # --- Inference ---
     try:
+        if not is_model_loaded():
+            try:
+                load_model()
+            except Exception as exc:
+                logger.error("Model loading failed: %s", exc)
+                raise HTTPException(
+                    status_code=503,
+                    detail="AI model is not available. Please try again later.",
+                )
         result = predict(image_bytes)
+    except HTTPException:
+        raise
     except Exception as exc:
         logger.error("Inference error: %s", exc)
         raise HTTPException(status_code=500, detail="Model inference failed. Please try again.")
