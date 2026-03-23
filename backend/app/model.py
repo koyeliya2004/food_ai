@@ -20,6 +20,11 @@ CONFIDENCE_THRESHOLD = 0.20
 _pipeline = None  # lazy-loaded at startup
 
 
+def is_model_loaded() -> bool:
+    """Return True if the model pipeline has been loaded."""
+    return _pipeline is not None
+
+
 def load_model() -> None:
     """Load the image classification pipeline once at startup."""
     global _pipeline
